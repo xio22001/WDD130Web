@@ -6,7 +6,7 @@
 body {
     background-color: #fcfbfb; }
 header {
-    background-color:rgba(20,30,13, .7);
+    background-color:#7681b3;
 }
 nav a:hover {
     background-color: black;
@@ -20,6 +20,8 @@ nav a {
     text-align: center;
     color: #fcfbfb;
     text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
 }  
 
 html {
@@ -27,24 +29,10 @@ html {
 }
 body {
     min-height: 100%;
+  
 }
 p {
     margin: 35px;
-  }
-  div.a {
-    text-align: center;
-  }
-  
-  div.b {
-    text-align: left;
-  }
-  
-  div.c {
-    text-align: right;
-  }
-  
-  div.c {
-    text-align: justify;
   }
   .center {
     display: block;
@@ -61,12 +49,7 @@ p {
     border: 3px solid green;
     padding: 10px;
   }
-  img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: auto;
-  }
+
   .center {
     text-align: center;
   }
@@ -75,4 +58,82 @@ p {
 }
 .icon {
     width: 80px;
+}
+.logo {
+  width: 80px;
+}
+.center {
+  text-align: center;
+  border: 3px solid green;
+}
+#hero-img {
+  width: 100%;
+}
+
+#background {
+  height: 725px;
+  background-color:#7681b3;
+}
+.book, .join {
+  background-color:rgb(210, 239, 121)
+
+}
+.book:hover, .join:hover {
+  background-color:black
+}
+.msg {
+  background-color:#7681b3;
+}
+footer {
+  background-color:#7681b3;
+}
+.home-title {
+  color:black
+}
+h4 {
+  color:black
+}
+.msg h2 {
+  color:black
+}
+.msg p {
+  color:black
+}
+footer h3 {
+  color:black
+}
+footer a {
+  color:black
+}
+footer a:hover {
+  color:black
+}
+nav a {
+  text-align: center;
+  color: #fcfbfb;
+  text-decoration: none;
+}
+footer a {
+  text-align: center;
+  color: #fcfbfb;
+  text-decoration: none;
+}
+.book, .join {
+  text-align: center;
+  color: #fcfbfb;
+  text-decoration: none;
+}
+footer h3 a:hover {
+  text-align: center;
+  color: #fcfbfb;
+  text-decoration: underline;
+}
+#hero-msg h1, #hero-msg h4 {
+  text-align: center;
+}
+.button-box {
+  text-align: center;
+}
+main section {
+  text-align: center;
 }

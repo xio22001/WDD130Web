@@ -91,3 +91,12 @@ footer p {
 a:hover {
   background-color: white;
   color: steelblue;}
+  img {
+    display: inline;
+    width: 30%;
+    margin: 0 auto;
+  }
+
+
+
+  
