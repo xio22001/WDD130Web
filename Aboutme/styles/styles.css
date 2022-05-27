@@ -1,5 +1,6 @@
 body {
     text-align: center;
+    margin: 0;
 }
 nav {
     background-color: steelblue;
@@ -40,6 +41,7 @@ p {
 }
 a {
   font-size: 1.5em;
+  padding: 25px;
 }
 img {
   width: 80%;
@@ -52,6 +54,7 @@ h1 {
 }
 nav {
   text-align: center;
+  padding: 25px;
 }
 img {
   display: block;
@@ -76,9 +79,10 @@ footer {
   background-color: steelblue;
   color: white;
   text-align: center;
+
 }
 * {
-  border: 2px solid blue;
+  border: 2px solid rgb(235, 212, 118);
 }
 nav, footer {
   background-color: steelblue;
@@ -87,7 +91,13 @@ nav, footer {
 footer p {
   font-size: 20px;
   margin: 20px auto;
+  padding: 25px;
 }
 a:hover {
   background-color: white;
   color: steelblue;}
+  img {
+    display: inline;
+    width: 30%;
+    margin: 0 auto;
+  }
