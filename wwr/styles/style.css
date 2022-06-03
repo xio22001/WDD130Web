@@ -126,6 +126,7 @@ table {
   grid-column: 6/10;
   grid-row: 6/7;
   box-shadow: 5px 5px 10px #6f7364;
+  font-family: "Rock Salt", "Merriweather", "Helveta";
   
 }
 footer {
@@ -149,8 +150,8 @@ h4 {
 .msg h2 {
   color:black
   
-
 }
+
 .msg p {
   color:black;
   font-family: 'Merriweather';
