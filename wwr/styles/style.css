@@ -70,7 +70,8 @@ table {
   padding: 10px;
 }
 .logo {
-  width: 80px;
+  width: 100px;
+  height: 100px;
 }
 .center {
   text-align: center;
