@@ -12,7 +12,7 @@
     padding: 0;
    }
   header {
-    background-color:#7681b3;
+    background-color:#1976D2;
     display: grid;
     grid-template-columns: 150px auto;
   }
@@ -21,10 +21,10 @@
     justify-content: space-around;
   }
   nav a:hover {
-    background-color: black;
+    background-color: rgb(25, 27, 63);
   }
   nav a:hover {
-    background-color: black;
+    background-color: rgb(25, 27, 63);
     color: #d9c2a3;
   } 
   
@@ -77,36 +77,36 @@
     text-align: center;
     border: 3px solid green;
   }
-  #hero {
+  #kingbattle {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     margin-top: -100px;
   }
-  #hero-img {
+  #kingbattle-img {
     width: 100%;
   }
-  #hero-box {
+  #kingbattle-box {
     grid-column: 1/4;
     grid-row: 1/3;
     z-index: -1;
   }
-  #hero-msg h1 {
+  #kingbattle-msg h1 {
     text-align: center;
     color: white;
-    font-family:'Josefin Sans',sans-serif;
+    font-family:'Josefin Sans','Arvo';
     }
-  #hero-msg h4 {
+  #kingbattle-msg h4 {
     color: white;
     text-align: center;
   }
-  #hero-msg {
+  #kingbattle-msg {
     grid-column: 2/3;
     grid-row: 1/2;
     margin-top: 100px;
   }
   #background {
     height: 725px;
-    background-color:#7681b3;
+    background-color:#1976D2;
     padding: 25x 50px;
     margin-top: 100px;
     margin-bottom: 100px;
@@ -130,14 +130,17 @@
     
   }
   footer {
-    background-color:#7681b3;
+    background-color:#1976D2;
     padding: 25px 50px;
     margin-top: 200px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-  
-  }
+    width: 100%
+    
+
+}
+
   .home-title {
     color:black;
     font-family: 'Josefin Sans', 'Arvo', 'Helvetica';
@@ -263,35 +266,12 @@
     
   }
   
-  .river-grid {
+  .body-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     padding: 20px; }
     
-  .easyriver {
-    grid-column: 4/5;
-  }
-  .mediumriver {
-    grid-column: 4/5;
-  }
-  .hardriver {
-    grid-column: 4/5;
-  }
-  .rivermsg1 {
-    grid-column: 1/3;
-  }
-  .rivermsg2 {
-    grid-column: 1/3;
-  }
-  .rivermsg3 {
-    grid-column: 1/3;
-  }
-  .riverfun {
-    grid-column: 1/5;
-    padding: 40px;
-    height: auto;
-    width: auto;
-  }
+
   
   .msgbutton {
     grid-column: 1/5;
@@ -311,3 +291,33 @@
     margin-top: 3em;
   }
   
+
+  .hmong-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 20px; }
+    
+  .hmom-sg {
+    grid-column: 4/5;
+  }
+  .hmongland {
+    grid-column: 4/5;
+  }
+  .hmongviet {
+    grid-column: 4/5;
+  }
+  .hmongland-button {
+    grid-column: 1/3;
+  }
+  .hmoobcoin-button {
+    grid-column: 1/3
+  }
+  .rivermsg3 {
+    grid-column: 1/3;
+  }
+  .riverfun {
+    grid-column: 1/5;
+    padding: 40px;
+    height: auto;
+    width: auto;
+  }
