@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles/stylew12.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hmong World</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Arvo&family=Rock+Salt&display=swap');
+</style>
+<style>@import url('https://coolors.co/palette/e3f2fd-bbdefb-90caf9-64b5f6-42a5f5-2196f3-1e88e5-1976d2-1565c0-0d47a1');
+</style>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Arvo&family=Josefin+Sans&family=Rock+Salt&display=swap');
+</style>
+<body>
+    <div id="content">
+    <header>
+        <a id="logo_link" href="index.html">
+            <img class="logo" src="images/logo.png" width="150" height="121" alt="Logo">
+        </a>
+        <nav>
+            <a href="index.html">Hmong World</a>
+            <a href="hmoobcoin.html">Hmoob Coin</a>
+            <a href="hmongland.html">Hmong Land</a>
+            <a href="contactus.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="images/kingbattle2.jpeg" style="width:100%">
+          <div class="text">Caption Text</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="images/3kingdoms2.jpeg" style="width:100%">
+          <div class="text">Caption Two</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="images/Battlescene.jpg" style="width:100%">
+          <div class="text">Caption Three</div>
+        </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+        
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+        </div>
+        
+        <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+        }
+        </script>
+
+<script>
+    var myIndex = 0;
+    carousel();
+    
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      myIndex++;
+      if (myIndex > x.length) {myIndex = 1}    
+      x[myIndex-1].style.display = "block";  
+      setTimeout(carousel, 5000); // Change image every 5 seconds
+    }
+    </script>
+
+
+
+
+
+
+        <section id="kingbattle-msg">
+            <h1 class="home-title">Welcome to Hmong World</h1>
+            <h4>Established for all Hmong around the World and Crypto Enthusiasts 2022</h4>
+          
+        </section>
+    </div>
+<section class="hmong-grid">
+    
+    <section class="hmom-sg">
+        <h2>Hmoob Coin</h2>
+        <p>HMOOB COIN (Bring back the Hmong Empire by uniting with one currency, Hmoob coin) The spirit of Emperor Chi You, Txiv Yawg invites every Hmong across the globe to participate Signup and receive your free Hmoob coin now. Free 100 hmoob coin Refer get 100 hmoob coin Please write “hello” in Hmong and get an additional 1,000 free Hmoob coin. Inside Back office DONATIONS to uniting the Hmong people accepted Contributor .01 ETH = 1,000 Star Contributor .10 ETH = 10,000 limited time bonus gift 10,000 VIP Contributor 1 ETH = 100,000 limited time bonus gift 100,000 Please only Contribute up to 1 ETH. We don’t want any whales getting all the coin. Listed on Uniswap Exchange Partnering with Hmong Vendors across the world soon. Hmong Market place coming soon Buy, Sell, Trade globally with your family in the New Hmong Empire. First Round Token Distribution: bonuses given 11,000,000 Total Hmoob Coin Second Round token Distribution: No bonus 11,000,000 Total Hmoob Coin Membership site: include token amount in account Plus referral bonus coin amount Option to transfer to Metamask wallet, ERC20 wallet Countdown clock before bonus expires.
+    <section class="hmo">
+        <img class="hmos-img" src="images/hmos.jpeg" alt="hmopreview" class="center">
+
+        <section class="hmoobcoin-button">
+            <h2>Get Your FREE Hmoob Coins Today!</h2>
+            <a class='join' href="hmoobcoin.html">Enter Hmoob Coin</a>
+        </section>    
+        
+    </section>
+    <section class="hmongland">
+        <h2>Hmong Land</h2>
+        <p>Hmong people have always dreamed of having a country they can call their own. Now you can have the whole Earth as your country in the digital world. Lets face the facts, if you are using the same currency to trade and you can trade with any Hmong person around the world, what difference does it make that you have to live on one land. Its already as if you live on one land because you can communicate and trade with one another. You can call the Earth as Hmong Land if you want, we are all connected now with Hmoob coin. In a world where governments are controlled by corporations and greed runs rampant in every country, is there any hope that the Hmong will have their own country someday. We think not, all the major lands and real estate has already been bought and owned. We find it somewhat ludicrous to say that the Hmong will have their own country someday like what some of the old Hmong generation wishes. We are however very respectful of the older Hmong generation. We do understand that it has always been a dream of the Elders to have a country called home, and to keep that dream alive there needs to be HOPE. For this reason, we have created Hmong Land. Hmong Land will keep that Hope alive. Hmong Land is the virtual land of the Hmong and anyone can access it through any VR headset. In Hmong Land, you can experience what it was like to live in the old traditional Hmong way. See the bamboo trees and witness the sun setting over beautiful green mountain tops. You can hike along a dirt path going up the hill and then as you look down, you eyes will swell with joy as you witness the beautiful green rice fields slightly bending against the gently blowing wind. Welcome to Hmong Land. </p>    
+    </section>
+        <section class="hmongviet">
+        <img class="hmongviet" src="images/hmongviet.jpeg" alt="hmongland" class="center">
+    
+
+    <section class="hmongland-button">
+        <h2>A new land awaits you!</h2>
+        <a class='join' href="hmongland.html">Enter Hmoob Land</a>
+    </section>
+</section>    
+</main>
+<footer>
+    <h3>Hmong World &copy; 2022 - Daneng Xiong</h3>
+    <h3><a href="site-plan.html">Site Plan</a></h3>
+    <h3><a href="contactus.html">Contact Us</a></h3>
+    <div class="social">
+        <a href="https://facebook.com" target="_blank">
+            <img src="images/facebook.png" alt="fb icon">
+        </a>
+        <a href="https://twitter.com" target="_blank">
+            <img src="images/twitter.png" alt="twitter icon">
+        </a>
+    </div>
+        </footer>
+    </div>
+</body>
+</body>
+</footer>
+</body>
+</html>
